@@ -148,7 +148,7 @@ section label {
 
 
 .hero-container::before {
-    background: url(../assets/images/bg.png) no-repeat center center/cover;
+    background: url(../../assets/images/bg.png) no-repeat center center/cover;
     content: "";
     position: absolute;
     top: 0;
