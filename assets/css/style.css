@@ -163,7 +163,7 @@ section label {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    height: 60rem;
     padding-top: 5rem;
 }
 
@@ -416,8 +416,7 @@ section label {
 }
 
 #About {
-    max-height: 110vh;
-    min-height: 80vh;
+    height: 75rem;
     padding-top: 5rem;
     background-color: #ececec;
 }
@@ -443,7 +442,7 @@ section label {
 
 .dev-img-box {
     width: 26rem;
-    height: 100%;
+    height: auto;
     padding: 1rem;
 }
 
