@@ -80,6 +80,10 @@
         height: 120rem;
     }
 
+    .hero-container {
+        height: 105rem;
+    }
+
     #Skills {
         height: 90rem;
     }
