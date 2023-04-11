@@ -76,6 +76,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #About {
+        height: 110rem;
+    }
+
     #Skills {
         height: 90rem;
     }
