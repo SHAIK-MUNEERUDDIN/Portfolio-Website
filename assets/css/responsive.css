@@ -1,17 +1,154 @@
-@media only screen and (max-width: 480px) {
-    html {
-        font-size: 55%;
+/* media query for header section */
+
+@media only screen and (max-width: 780px) {
+    header {
+        padding: 20px 0px;
     }
 
-    section {
-        padding: 2rem;
+    input[type=checkbox] {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        background: none;
     }
 
-    #Skills {
-        padding: 0;
+    input[type=checkbox]:fous {
+        background: none;
+    }
+
+    #navi-menu label {
+        position: absolute;
+        right: 30px;
+        padding: 8px 0px;
+        display: block;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~nav {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 57px;
+        background-color: #1A1B37;
+        padding: 0px;
+        z-index: 99;
+        margin-right: -24px;
+        width: 75%;
+        height: 100vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        float: none;
+        padding: 7px 0px;
+        width: 48%;
+        display: table;
+        text-align: left;
+        min-width: 190px;
+    }
+
+    nav ul li a {
+        color: #FFF;
+        font-size: 2rem;
+        padding: 10px 20px;
+        display: block;
+    }
+
+
+    header nav ul li a.active,
+    header nav ul li a:hover {
+        color: #02B7FF;
+        border-bottom: 0.3rem solid #02B7FF;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+    }
+
+    .toggle-menu ul {
+        display: table;
+        width: 25px;
+        margin-top: 12px;
+    }
+
+
+
+    #toggle-1:checked+.toggle-menu .stick-1 {
+        margin-top: 0px;
+        transform: rotate(405deg);
+        top: 27px;
+        position: absolute;
+    }
+
+    #toggle-1:checked+.toggle-menu .stick-2 {
+        /* background: rgba(255, 255, 255, 0); */
+        display: none;
+    }
+
+    #toggle-1:checked+.toggle-menu .stick-3 {
+        margin-top: 7px;
+        transform: rotate(-405deg);
+    }
+
+}
+
+
+
+/* media query for contact section */
+
+@media (max-width: 900px) {
+    /* .contact {
+        min-height: 55vh;
+    } */
+
+    .contact .container {
+        margin: 3rem 0 2rem 0;
+    }
+
+    .contact .container .content {
+        padding: 18px 12px;
+    }
+
+    .contact .content .image-box {
+        display: none;
+    }
+
+    .contact .content form {
+        width: 100%;
+        margin-right: 2rem;
     }
 }
 
+
+/* media query for footer section */
+
+@media (max-width: 450px) {
+    .footer .box-container .box {
+        margin: 1.5rem;
+    }
+
+    .footer .box-container .box p {
+        padding: 0.7rem;
+    }
+
+    .footer .box-container .box .share a {
+        padding: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+/* media queries for home,about,education,skill sections */
 
 @media only screen and (max-width: 480px) {
     .toggle-menu ul {
@@ -150,5 +287,29 @@
     .edu-container .college .coll-box {
         width: 100%;
         height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* common media querry */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 55%;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    #Skills {
+        padding: 0;
     }
 }
