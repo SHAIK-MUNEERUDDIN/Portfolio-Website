@@ -449,7 +449,7 @@ section label {
 .dev-img-box img {
     width: 25rem;
     height: auto;
-    border-radius: 5%;
+    border-radius: 1rem;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     mix-blend-mode: luminosity;
     transition: 0.3s;
