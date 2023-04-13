@@ -100,9 +100,29 @@
 
 
 
-/* media query for contact section */
 
-@media (max-width: 900px) {
+
+
+
+/* media queries for home,about,education,skill, and contact section */
+
+@media only screen and (max-width: 900px) {
+    .skill-container {
+        padding: 2rem;
+        width: auto;
+        margin: 0 4rem;
+    }
+
+    #Work {
+        height: 85rem;
+    }
+
+    #Contact {
+        padding-bottom: 0;
+    }
+
+
+
     /* .contact {
         min-height: 55vh;
     } */
@@ -122,93 +142,6 @@
     .contact .content form {
         width: 100%;
         margin-right: 2rem;
-    }
-}
-
-
-/* media query for footer section */
-
-@media (max-width: 450px) {
-    .footer .box-container .box {
-        margin: 1.5rem;
-    }
-
-    .footer .box-container .box p {
-        padding: 0.7rem;
-    }
-
-    .footer .box-container .box .share a {
-        padding: 1.2rem;
-    }
-}
-
-
-
-
-
-
-
-/* media queries for home,about,education,skill sections */
-
-@media only screen and (max-width: 480px) {
-    .toggle-menu ul {
-        margin-top: 5px;
-    }
-
-    #toggle-1:checked+.toggle-menu .stick-1 {
-        top: 20px;
-    }
-
-    nav {
-        top: 68px;
-    }
-
-    .hero-intro {
-        margin-top: 0rem;
-        text-align: center;
-    }
-
-    .hero-container {
-        height: 60vh;
-    }
-
-    #bit-img {
-        height: 400px;
-    }
-
-    #bit-img img {
-        height: 400px;
-    }
-
-
-
-}
-
-@media only screen and (max-width: 400px) {
-
-    .hero-intro h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-intro>span {
-
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .skill-container {
-        padding: 2rem;
-        width: auto;
-        margin: 0 4rem;
-    }
-
-    #Work {
-        height: 85rem;
-    }
-
-    #Contact {
-        padding-bottom: 0;
     }
 }
 
@@ -290,6 +223,72 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .toggle-menu ul {
+        margin-top: 5px;
+    }
+
+    #toggle-1:checked+.toggle-menu .stick-1 {
+        top: 20px;
+    }
+
+    nav {
+        top: 68px;
+    }
+
+    .hero-intro {
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .hero-container {
+        height: 60vh;
+    }
+
+    #bit-img {
+        height: 400px;
+    }
+
+    #bit-img img {
+        height: 400px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .hero-intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-intro>span {
+
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+/* media query for footer section */
+
+@media (max-width: 450px) {
+    .footer .box-container .box {
+        margin: 1.5rem;
+    }
+
+    .footer .box-container .box p {
+        padding: 0.7rem;
+    }
+
+    .footer .box-container .box .share a {
+        padding: 1.2rem;
+    }
+}
 
 
 
