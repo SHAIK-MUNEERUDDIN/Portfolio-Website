@@ -167,14 +167,16 @@
     }
 }
 
+
 @media only screen and (max-width: 600px) {
     #Skills {
-        height: 80rem;
+        height: 105rem;
     }
 
     .skill-container {
+        grid-template-columns: repeat(2, 1fr);
+        height: 82rem;
         width: auto;
-        height: 55rem;
     }
 
     #Skills .skill-container .skill {
@@ -190,18 +192,6 @@
     #Skills .skill-container .skill .info span {
         font-size: 1.5rem;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    #Skills {
-        height: 105rem;
-    }
-
-    .skill-container {
-        grid-template-columns: repeat(2, 1fr);
-        height: 82rem;
-    }
-
 
     #Education {
         height: 120rem;
@@ -253,7 +243,9 @@
         height: 400px;
     }
 
-
+    #Skills {
+        padding: 5rem 0;
+    }
 
 }
 
@@ -306,9 +298,5 @@
 
     section {
         padding: 2rem;
-    }
-
-    #Skills {
-        padding: 0;
     }
 }
