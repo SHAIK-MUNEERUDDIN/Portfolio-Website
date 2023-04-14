@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="./assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -320,6 +321,21 @@
 
     </section>
     <!-- footer section ends here -->
+    <script>
+        // Highlight active section in navbar
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('section').each(function () {
+                    if ($(window).scrollTop() >= $(this).offset().top - 300) {
+                        var id = $(this).attr('id');
+                        $('nav li a').removeClass('active');
+                        $('nav').find('a[href="#' + id + '"]').addClass('active');
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>
