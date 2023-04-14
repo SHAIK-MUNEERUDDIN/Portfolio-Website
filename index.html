@@ -321,21 +321,6 @@
 
     </section>
     <!-- footer section ends here -->
-    <script>
-        // Highlight active section in navbar
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                $('section').each(function () {
-                    if ($(window).scrollTop() >= $(this).offset().top - 300) {
-                        var id = $(this).attr('id');
-                        $('nav li a').removeClass('active');
-                        $('nav').find('a[href="#' + id + '"]').addClass('active');
-                    }
-                });
-            });
-        });
-    </script>
-
 </body>
 
 </html>
