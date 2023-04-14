@@ -92,11 +92,11 @@ nav ul li a {
     font-weight: 600;
     text-decoration: none;
     letter-spacing: 0.04rem;
-    transition: 0.2s;
 }
 
 nav ul li a i {
     padding: 0.2rem;
+    transition: none !important;
 }
 
 header nav ul li a.active,
@@ -104,6 +104,7 @@ header nav ul li a:hover {
     color: #02B7FF;
     border-bottom: 0.3rem solid #02B7FF;
     padding: 0.5rem 0;
+    border-radius: 0.1rem;
 }
 
 
