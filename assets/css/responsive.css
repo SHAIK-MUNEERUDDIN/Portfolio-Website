@@ -113,9 +113,9 @@
         margin: 0 4rem;
     }
 
-    #Work {
-        height: 85rem;
-    }
+    /* #Work {
+        height: max-content;
+    } */
 
     #Contact {
         padding-bottom: 0;
@@ -246,7 +246,8 @@
     #Skills {
         padding: 5rem 0;
     }
-        #Contact {
+
+    #Contact {
         padding-bottom: 2rem;
     }
 
