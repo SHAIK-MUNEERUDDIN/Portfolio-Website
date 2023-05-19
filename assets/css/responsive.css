@@ -113,9 +113,9 @@
         margin: 0 4rem;
     }
 
-    /* #Work {
-        height: max-content;
-    } */
+    #Work {
+        max-height: 120rem;
+    }
 
     #Contact {
         padding-bottom: 0;
