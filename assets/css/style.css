@@ -572,7 +572,7 @@ span {
 
 #Work {
     padding-top: 5rem;
-    height: 90rem;
+    height: 100%;
     background-color: #4D45AC;
 }
 
@@ -592,9 +592,10 @@ span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 35rem;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 8rem;
     justify-content: space-evenly;
 }
 
