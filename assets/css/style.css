@@ -956,11 +956,4 @@ form .button-area {
     }
 }
 
-@keyframes pound {
-    to {
-        transform: scale(1.1);
-    }
-}
-
-
 /* footer section ends */
