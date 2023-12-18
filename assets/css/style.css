@@ -594,15 +594,14 @@ span {
     flex-direction: row;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
     padding-bottom: 8rem;
-    justify-content: space-evenly;
+    justify-content: center;
+    grid-gap: 3rem;
 }
 
 .project-container .card {
-    margin: 2rem 2rem;
     width: 40rem;
-    height: 30rem;
+    height: 33rem;
     position: relative;
     overflow: hidden;
     border-radius: 0.8rem;
@@ -617,13 +616,13 @@ span {
 
 .card-info {
     width: 100%;
-    height: 25rem;
+    height: 28rem;
     font-size: 1.4rem;
     background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 85%;
+    top: 87%;
 
 }
 
@@ -638,7 +637,7 @@ span {
 }
 
 .card-info>p {
-    padding: 0rem 4rem;
+    padding: 0rem 3rem;
     margin-top: 2rem;
 }
 
@@ -656,14 +655,14 @@ span {
     border-radius: 0.5rem;
     font-size: 1.5rem;
     height: 4.5rem;
-    margin: 3.5rem 0;
+    margin: 2.5rem 0;
     background-color: black;
     color: white;
     box-shadow: 5px 5px 12px -1px #202020;
 }
 
 .card:hover .card-info {
-    top: 17%;
+    top: 15%;
 }
 
 
